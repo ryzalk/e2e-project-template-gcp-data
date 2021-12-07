@@ -1,4 +1,4 @@
 [core]
-    remote = infra-test-gcs
-['remote "infra-test-gcs"']
-    url = gs://e2e-project-template/dvc-cache
+    remote = gcs
+['remote "gcs"']
+    url = gs://aisg-eptg-example-data/.dvc_cache
